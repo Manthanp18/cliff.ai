@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { getProgress } from "../urls/file";
+import { getProgress } from "../../urls/file";
 
 function ProgressViewer({ fileId, setFileId = () => {} }) {
   const [percent, setPercent] = useState(0);

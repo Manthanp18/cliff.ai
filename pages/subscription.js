@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
-import { getAuthUrl, getToken } from "./urls/auth";
-import { upload, getSheet } from "./urls/file";
+import { getAuthUrl, getToken } from "../urls/auth";
+import { upload, getSheet } from "../urls/file";
 // import "../App.css";
 import FormFields from "./components/Form";
 import ProgressViewer from "./components/ProgressViewer";

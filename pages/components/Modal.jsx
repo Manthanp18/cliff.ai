@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { upload, getSheet } from "../urls/file";
+import { upload, getSheet } from "../../urls/file";
 import Link from "next/link";
 
 import { useRouter } from "next/router";
