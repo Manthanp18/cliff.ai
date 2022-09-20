@@ -5,8 +5,7 @@ const jwt = require("jsonwebtoken");
 const jwtSecret = "SUPERSECRETE20220";
 
 const saltRounds = 10;
-const url =
-  "mongodb+srv://manthan:manthan123@cluster0.x53tfpu.mongodb.net/?retryWrites=true&w=majority";
+const url = process.env.MONGO_URL;
 const dbName = "Cliff";
 
 const client = new MongoClient(url, {
