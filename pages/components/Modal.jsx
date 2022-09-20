@@ -69,7 +69,9 @@ export default function Modal({ modal, driveData }) {
                     </option>
 
                     {driveData?.data?.data?.map((fruit) => (
-                      <option value={fruit.id}>{fruit.name}</option>
+                      <option key={fruit.id} value={fruit.id}>
+                        {fruit.name}
+                      </option>
                     ))}
                   </select>
                   {sheetId && (

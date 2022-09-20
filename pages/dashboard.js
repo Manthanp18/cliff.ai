@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-export default function dashboard() {
+export default function Dashboard() {
   const router = useRouter();
 
   const coloumNumber = JSON.parse(router?.query?.data);
